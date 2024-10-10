@@ -6,19 +6,28 @@ android {
     namespace 'cc.ytdttj.costeffectiveness'
     compileSdk 34
 
+    splits {
+        abi {
+            enable true
+            reset()
+            include 'arm64-v8a'
+            universalApk false
+        }
+    }
     defaultConfig {
         applicationId "cc.ytdttj.costeffectiveness"
         minSdk 33
         targetSdk 34
-        versionCode 5
-        versionName "1.0"
+        versionCode 6
+        versionName "1.1"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
+            shrinkResources  true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
