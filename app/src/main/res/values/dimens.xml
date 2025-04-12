@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 边距 -->
+    <dimen name="activity_margin">16dp</dimen>
+    <dimen name="input_margin">32dp</dimen>
+    <dimen name="vertical_spacing">8dp</dimen>
+    
+    <!-- 文本大小 -->
+    <dimen name="text_size_title">20sp</dimen>
+    <dimen name="text_size_normal">16sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    
+    <!-- 按钮尺寸 -->
+    <dimen name="button_height">56dp</dimen>
+    <dimen name="button_width">160dp</dimen>
+    
+    <!-- 输入框尺寸 -->
+    <dimen name="input_min_height">48dp</dimen>
+    <dimen name="input_padding">8dp</dimen>
+    
+    <!-- 顶部和底部安全区域 -->
+    <dimen name="top_safe_area">48dp</dimen>
+    <dimen name="bottom_safe_area">16dp</dimen>
+</resources>
